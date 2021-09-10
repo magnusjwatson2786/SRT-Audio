@@ -1,8 +1,8 @@
 import parsesrt,os,pyttsx3,time
 from pydub import AudioSegment as adseg
 
-srtpath="test3.srt"
-sppath="speech3"
+srtpath="test1.srt"
+sppath="speech1"
 threads=[]
 parsesrt.parse(srtpath)
 # time.sleep(2)
