@@ -63,7 +63,7 @@ def compile():
         lastime-=compensate
         printProgressBar(i+1, nl, prefix = 'Compiling:', suffix = 'Complete', length = 50)
 
-    holder.export("full.wav", format="wav")
+    holder.export(os.path.join(sppath,"full.wav"), format="wav")
     print("compilation finished")
 
 print("--- %s seconds ---" % (time.time() - start_time))
