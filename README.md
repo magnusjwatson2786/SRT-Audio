@@ -1,4 +1,4 @@
-<h1> SRT-Audio </h1
+<h1> SRT-Audio </h1>
 <p align="center">
 <img src="https://img.shields.io/github/repo-size/magnusjwatson2786/SRT-Audio">
 <img src="https://img.shields.io/github/last-commit/magnusjwatson2786/SRT-Audio">
