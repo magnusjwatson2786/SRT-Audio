@@ -18,6 +18,7 @@ def parse(path:str)-> None:
             part=subline.split(b"\n")
             if len(part)>=3:
                 tsmp[int(part[0])]=part[1].decode("utf-8")
+                ln=b""
                 for x in part[2:]:
                     ln+=b" "
                     ln+=x
